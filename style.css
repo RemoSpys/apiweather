@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f0f0f5;
+    color: #333;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #444;
+}
+
+.search-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+input#search {
+    height: 40px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+input#search:focus {
+    outline: none;
+    border-color: #6c63ff;
+    box-shadow: 0px 0px 10px rgba(108, 99, 255, 0.5);
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.category-label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+select#categories {
+    width: 25%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+select#categories:hover {
+    border-color: #6c63ff;
+}
+
+button.generate-joke-button {
+    padding: 12px 20px;
+    background-color: #6c63ff;
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.generate-joke-button:hover {
+    background-color: #5553e1;
+}
+
+.random-jokes {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #444;
+}
+
+.weather-section {
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.weather-section h2 {
+    margin-bottom: 10px;
+}
+
+button#get-weather-btn {
+    padding: 12px 20px;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button#get-weather-btn:hover {
+    background-color: #2980b9;
+}
+
+.weather-result {
+    margin-top: 20px;
+    display: none;
+}
+
+.weather-result h3,
+.weather-result p {
+    margin: 5px 0;
+    font-size: 1.2rem;
+    color: #333;
+}
